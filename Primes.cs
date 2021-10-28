@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Primes
 {
-    static class Prime
+    public static class Prime
     {
         private static int Isqrt(int n) => (int)Math.Sqrt(n);
         public static Boolean isPrime(int n)
